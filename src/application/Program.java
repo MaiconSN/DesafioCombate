@@ -45,8 +45,8 @@ public class Program {
 				System.out.printf("Resultado do turno %d:%n", i+1);
 				champion1.takeDamage(champion2);
 				champion2.takeDamage(champion1);
-				System.out.println(champion1);
-				System.out.println(champion2);
+				System.out.println(champion1.status());
+				System.out.println(champion2.status());
 				
 				System.out.println("\n");
 				
@@ -56,8 +56,8 @@ public class Program {
 				System.out.printf("Resultado do turno %d:%n", i+1);
 				champion1.takeDamage(champion2);
 				champion2.takeDamage(champion1);
-				System.out.println(champion1);
-				System.out.println(champion2);
+				System.out.println(champion1.status());
+				System.out.println(champion2.status());
 				
 				System.out.println("\n");
 			}

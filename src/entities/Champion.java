@@ -70,7 +70,7 @@ public class Champion {
 		
 	}
 	
-	public String toString() {
+	public String status() {
 		if(this.life == 0) {
 			return name
 					+ ": "
